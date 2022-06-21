@@ -1,7 +1,6 @@
 package IO4;
 
 import java.io.*;
-import java.text.DecimalFormat;
 import java.util.StringTokenizer;
 
 public class Main {
@@ -9,7 +8,6 @@ public class Main {
     public static void main(String[] args) throws IOException {
 
         String text = "";
-        String finalSum = "";
         double sum = 0.000000;
 
         InputStream is = System.in;
